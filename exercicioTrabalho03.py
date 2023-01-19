@@ -5,7 +5,7 @@ def metragemLimpeza():
             metragemCasa = int(input('Entre com a metragem da casa: ')) # Recebe o valor do tamanho da casa
             if metragemCasa >= 30 and metragemCasa < 300: # Verifica o tamanho recebido
                 print('É necessário contratar 1 pessoa')
-                return 60 + 0.3 * metragemCasa  # Retorna ********** TERMINAR
+                return 60 + 0.3 * metragemCasa  # Retorna o valor em R$
             elif metragemCasa >= 300 and metragemCasa < 700:
                 print('É necessário contratar 2 pessoas')
                 return 12 + 0.5 * metragemCasa
